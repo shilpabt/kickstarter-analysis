@@ -12,7 +12,7 @@ Analyse the data from fundraising activities and gather meaningful insights. Wit
 ### Analysis of Outcomes Based on Launch Date
 Launch date based chart is as below
 
-![Launch Date Analysis](Resources/Theater_Outcomes_vs_Launch.png?raw=true "Outcome based on launch date")
+![Launch Date Analysis](resources/Theater_Outcomes_vs_Launch.png?raw=true "Outcome based on launch date")
 The plan was to create a pivot table and an accompanying chart baed on the given data. A new sheet 'Theatre Outcomes by Launch Date' was created to present the results for this section. On the main worksheet, I have created a new column 'years', to get only years from date created convertion, i used a YEAR() function. 
 
 The 'Years' column is used as a filter along with 'Parent category' for the pivot table. The rows(x-axis) had 'Date created conversion' and the columns(y-axis) had 'Count of Outcomes', The sum of outcomes. This pivot table was named 'Theatre Outcomes by Launch Date'. Finally, the 'Parent category' was filtered to show data for 'Theatre' and for visualization, a line chart was created from the pivot table.
@@ -26,7 +26,7 @@ Note that the launch date based analysis sheet provides filters to drill down ye
 
 ### Analysis of Outcomes Based on Goals
 
-![Outcome based on Goals](Resources/Outcomes_vs_Goals.png?raw=true "Outcome based on Goals")
+![Outcome based on Goals](resources/Outcomes_vs_Goals.png?raw=true "Outcome based on Goals")
 A new worksheet is created "Outcomes based on Goals" and he tble is created according to the instruction given. I used 'convert to text' to seperate the dollar value ranges 'goal from' and 'Goal to' from the Goal. the COUNTIFS() function was used to populate the number of successful, failed and canceled campaigns. SUM() was used to count the campaigns thats in 'Total Projects'. Percentages were calculated for every outcomes. Finally a line chart, 'Outcomes_Vs_Goals.png', was created for the visualization.
 
 The "Outcomes based on goals" analysis reveals following information
